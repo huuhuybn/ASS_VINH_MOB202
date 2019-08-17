@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTenKhoanThu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:text="KHOẢN THU"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/ed_ten_khoan_thu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="Ten khoan thu"
+        android:paddingLeft="8dp" />
+
+    <EditText
+        android:id="@+id/ed_so_tien_thu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="So tien thu"
+        android:paddingLeft="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:text="Chon loai thu" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinner_khoan_thu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:paddingLeft="8dp">
+
+    </androidx.appcompat.widget.AppCompatSpinner>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn ngày"
+        android:gravity="center"/>
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"/>
+
+</LinearLayout>
